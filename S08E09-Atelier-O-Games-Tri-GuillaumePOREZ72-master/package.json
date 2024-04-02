@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.8.3",
+    "parcel": "^2.8.3",
+    "parcel-reporter-static-files-copy": "^1.5.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "clear": "rd -r dist /S /Q; rd -r .parcel-cache /S /Q;"
+  },
+  "name": "e06-atelier",
+  "description": "O'Games est un site qui liste des jeux vidéos. On \r - Changer la structure d'une réception de tableau avec .map\r   - Afficher en premier les favoris de l'utilisateur\r   - Si aucune image disponible pour le film, afficher une image par défaut \"no-image.png\"\r   - Si une note existe, afficher la note, sinon afficher \"Pas encore noté\"\r   - Si l'utilisateur a déjà noté le film:\r     - Afficher la note de l'utilisateur\r     - \r   - Dans le .map ajouter une vue conditionnelle\r   - Ajouter une classe conditionnelle dans le .map",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
